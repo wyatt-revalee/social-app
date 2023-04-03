@@ -13,7 +13,7 @@ dotenv.config();
 let connection = mongoose.connect(process.env.MONGO_URL, {useNewUrlParser: true});
 if(connection)
     console.log("Connected to MongoDB")
-
+    
 //middleware
 app.use(express.json());
 app.use(helmet());
