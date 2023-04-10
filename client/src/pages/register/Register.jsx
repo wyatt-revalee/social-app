@@ -4,7 +4,7 @@ import { loginCall } from "../../apiCalls"
 import { AuthContext } from "../../context/AuthContext"
 import CircularProgress from '@mui/material/CircularProgress';
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Register() {
 
@@ -52,7 +52,9 @@ export default function Register() {
                       <input placeholder="Password required" ref={password} type="password" minLength="6" className="loginInput" />
                       <input placeholder="Confirm Password" required ref={confirmPassword} type="password" minLength="6" className="loginInput" />
                       <button className="loginButton" type="submit">Sign Up</button>
-                      <button className="loginRegisterButton">Log In</button>
+                      <Link to={`/login`} className="loginRegisterButton" style={{ textDecoration: "none" }} >
+                        <button className="loginRegisterButton">Log In</button>
+                      </Link>
                 </form>
               </div>
         </div>

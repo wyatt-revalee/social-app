@@ -1,6 +1,5 @@
 .share{
     width: 50%;
-    height: 170px;
     border-radius: 10px;
     background-color: aliceblue;
     width: 100%;
@@ -81,4 +80,22 @@
     margin-right: 20px;
     cursor: pointer;
     color: white;
+}
+
+.shareImgContainer{
+    padding: 0 20px 10px 20px;
+    position: relative;
+}
+
+.shareImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.shareCancelImg{
+    color: #f56060;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 20px;
 }

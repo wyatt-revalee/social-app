@@ -81,3 +81,22 @@
     object-fit: cover;
     border-radius: 5px;
 }
+
+.rightbarFollowButton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #3568f5;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rightbarFollowButton:hover {
+    background-color: #5a82f0;
+}
