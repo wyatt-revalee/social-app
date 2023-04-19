@@ -63,7 +63,7 @@ export default function Post({post}) {
                       <span className="postDate">{format(post.createdAt)}</span>
                   </div>
                   <div className="postTopRight">
-                    <DeleteIcon className="postOptionsIcon" onClick={deleteHandler}/>
+            {(!user._id || post.userId === currentUser._id) && <DeleteIcon className="postOptionsIcon" onClick={deleteHandler}/>}
                   </div>
               </div>
               <div className="postCenter">
