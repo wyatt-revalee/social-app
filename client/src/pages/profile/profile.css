@@ -47,3 +47,14 @@
 .profileRightBottom{
     display: flex;
 }
+
+.changeProfilePictureButton{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.profileUpdateButton{
+    display: none;
+}

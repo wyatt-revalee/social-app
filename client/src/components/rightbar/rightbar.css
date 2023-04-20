@@ -52,6 +52,7 @@
 }
 
 .rightbarInfoKey{
+    display: inline;
     font-weight: 500;
     margin-right: 15px;
     color: #555;
@@ -99,4 +100,39 @@
 
 .rightbarFollowButton:hover {
     background-color: #5a82f0;
+}
+
+.profileInfoHeader{
+}
+
+.editProfileButton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #3568f5;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.editProfileInput{
+    display: none;
+}
+
+.editProfileInfo{
+    display: inline;
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.saveProfileEditButton{
+    margin-bottom: 20px;
+    background-color: #3568f5;
+    color: white;
+    display: none;
 }
